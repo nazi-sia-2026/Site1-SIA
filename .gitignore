@@ -4,3 +4,23 @@ Homestead.json
 Homestead.yaml
 .env
 .phpunit.result.cache
+# General
+.DS_Store
+.vscode/
+
+# PHP/Laravel specific
+/vendor/
+.env
+.env.backup
+composer.lock
+
+# Logs and Storage
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Database
+*.sqlite
+*.sql
